@@ -1,0 +1,25 @@
+{
+    "slider-layout#featured-products": {
+        "children": [
+            "image#featured-products1",
+            "image#featured-products2"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    },
+    "image#featured-products1": {
+        "props": {
+            "src": "assets/images/upmedalbanner1.png"
+        }
+    },
+    "image#featured-products2": {
+        "props": {
+            "src": "assets/images/upmedalbanner2.png"
+        }
+    }
+}

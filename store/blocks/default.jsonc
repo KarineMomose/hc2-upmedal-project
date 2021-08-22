@@ -30,7 +30,10 @@
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "product-summary-image"
+
+      
     ]
   }
 }

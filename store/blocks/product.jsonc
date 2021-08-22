@@ -1,7 +1,49 @@
 {
   "store.product": {
+    "children": []
+  },
+  "flex-layout.row#products": {
     "children": [
-      
+      "list-context.product-list#promocao"
+     
+    ]
+  },
+  "list-context.product-list#promocao": {
+    "blocks": [
+      "product-summary.shelf#promocao" 
+    ],
+    "children": [
+      "slider-layout#products" 
+    ],
+    "props": {
+      "category": "20", 
+      "hideUnavailableItems": true, 
+      "blockClass": "products" 
+    }
+  },
+  "slider-layout#products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3, 
+        "tablet": 2, 
+        "phone": 2 
+      },
+      "infinite": true, 
+      "showNavigationArrows": "false", 
+      "blockClass": "products", 
+      "autoplay": {
+        "timeout": 3000, 
+        "stopOnHover": true 
+      }
+    }
+  },
+  "product-summary.shelf#promocao": {
+    "children": [
+      "product-summary-name", 
+      "product-summary-image", 
+      "product-summary-price", 
+      "add-to-cart-button" 
     ]
   }
+  
 }
